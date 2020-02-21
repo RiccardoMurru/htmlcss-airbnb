@@ -8,7 +8,9 @@
   height: 100vh;
   background-size: cover;
   position: relative;
+  background-position: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 /* background città */
@@ -52,10 +54,12 @@
   text-transform: uppercase;
   color: #fff;
   z-index: 1;
-  text-align: center;
-}
-.container span:hover {
   transition: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.container span:hover {
+  font-size: 150px;
   text-shadow: 5px 5px #000;
   opacity: .8;
 }
